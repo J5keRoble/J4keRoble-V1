@@ -116,5 +116,5 @@ MrButton.MouseButton1Click:Connect (function()
 	tf.TextTransparency = 0.96
 	wait (0.1)
 	tf.TextTransparency = 1.000
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.tower.sections.finish.FinishGlow.CFrame
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.LoadedStages.EndStage.End.CFrame
 end)
