@@ -1,4 +1,4 @@
---Hacking your account
+--Hacking your account hahah
 
 local function VZNQA_fake_script() -- reset_character.Script of Reset 
 local reset_character = Instance.new("ScreenGui")
