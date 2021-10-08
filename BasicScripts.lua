@@ -1,4 +1,4 @@
--- Script By J4keRoble
+-- Script By J4keRoble's
 local BasicScript = Instance.new("ScreenGui")
 local main_of_all = Instance.new("ImageLabel")
 local decor = Instance.new("ImageLabel")
