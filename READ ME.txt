@@ -1,0 +1,13 @@
+you need level 3 executor for scripts
+
+#1
+
+go to this site : https://wearedevs.net/exploits
+
+KRNL or JJSploits
+
+#2
+
+download this file: https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-160
+
+play the exploit and click inject
