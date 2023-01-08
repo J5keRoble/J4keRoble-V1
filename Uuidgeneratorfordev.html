@@ -1,0 +1,20 @@
+<!-- Create the button to generate the UUID -->
+<button onclick="generateUuid()">Generate</button>
+
+<!-- Create a container to display the UUID -->
+<div id="uuid-container"></div>
+
+<!-- Add a script to generate the UUID -->
+<script>
+    function generateUuid() {
+        // Generate a random UUID
+        var uuid = "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function(c) {
+            var r = Math.random() * 16 | 0, v = c == "x" ? r : (r & 0x3 | 0x8);
+            return v.toString(16);
+        });
+        
+        // Display the UUID in the container
+        var container = document.getElementById("uuid-container");
+        container.innerHTML = uuid;
+    }
+</script>
